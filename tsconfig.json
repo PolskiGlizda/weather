@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ESNext",
+        "lib": ["ESNext", "DOM", "DOM.Iterable"],
+        "strict": true,
+        "resolveJsonModule": true,
+        "outDir": "dist",
+        "types": ["node"],
+        "typeRoots": ["./node_modules/@types"],
+        "allowJs": true,
+        "paths": {
+            "@/" : ["./src/*"],
+            "@root/" : ["./*"],
+        }
+    },
+    "include": ["./src"],
+}

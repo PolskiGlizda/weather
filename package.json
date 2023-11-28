@@ -1,0 +1,29 @@
+{
+    "name": "weather",
+    "version": "1.0.0",
+    "description": "Weather station",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js"
+    },
+    "author": {
+        "name": "PolskiGlizda",
+        "email": "filipgliszcynski@gmail.com",
+        "url": "https://github.com/PolskiGlizda"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PolskiGlizda/weather"
+    },
+    "devDependencies": {
+        "@types/node": "^20.10.0",
+        "typescript": "^5.3.2",
+        "webpack": "^5.89.0",
+        "webpack-cli": "^5.1.4"
+    },
+    "dependencies": {
+        "openmeteo": "^1.1.3"
+    }
+}
